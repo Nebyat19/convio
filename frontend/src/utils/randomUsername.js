@@ -1,6 +1,7 @@
 
 import names from './constants/names.json';
 
+const names = names.names;
 /**
  * Checks if a username exists in the database
  * @param {string} username - The username to check
@@ -27,3 +28,4 @@ function generateUniqueUsername() {
   return username;
 }
 
+export default generateUniqueUsername;
